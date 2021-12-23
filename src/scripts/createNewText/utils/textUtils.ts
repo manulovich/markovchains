@@ -16,7 +16,7 @@ const createNewSuggestion = (
     }
 
     for (let i = 2; i <= maxWordCount; i += 1) {
-        const currentWord = linkMap.getRandomLinkFomReleatedLinks(prevWord);
+        const currentWord = linkMap.getLinkFomReleatedLinks(prevWord);
 
         if (currentWord === '.' || i === maxWordCount) {
             suggestion += '.';

@@ -39,7 +39,7 @@ class LinkMap {
         return links[Math.floor(Math.random() * links.length)];
     }
 
-    public getRandomLinkFomReleatedLinks(link: string): string {
+    public getLinkFomReleatedLinks(link: string): string {
         const threshold = Math.random();
         const relatedLinks = this
             .get(link)
