@@ -23,7 +23,7 @@ const createNewSuggestion = (
             break;
         }
 
-        suggestion += ` ${linkMap.getRandomLinkFomReleatedLinks(prevWord)}`;
+        suggestion += ` ${currentWord}`;
         prevWord = currentWord;
     };
 

@@ -13,6 +13,6 @@ form?.addEventListener('submit', (e) => {
     resultElement.innerText = createNewText(
         sourceText,
         5,
-        rangeElement.value
+        Number(rangeElement.value)
     );
 });
